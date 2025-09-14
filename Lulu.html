@@ -2597,15 +2597,13 @@ document.querySelector(".cerrar-carta").addEventListener("click", () => {
   carta.classList.add("cerrando");
   setTimeout(() => {
     carta.classList.remove("mostrar", "cerrando");
-  }, 90000); // esperar a que termine la animación
+  }, 90000); 
 });
-// JavaScript para el botón de música
+
 document.getElementById('musicBtn').addEventListener('click', function() {
   window.open('https://youtu.be/Vte_kf5CSSM?si=a2fEoQomgvkX7cVj', '_blank');
 });
 
-// JavaScript para el botón del corazón
-// JavaScript para el botón del corazón
 document.getElementById('heartBtn').addEventListener('click', function() {
   document.getElementById('heartContainer').classList.add('mostrar');
 });
